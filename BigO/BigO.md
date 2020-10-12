@@ -1,9 +1,8 @@
 # Big-O
 Can tell us how well a program can be solved.
----
 
 ## What is Good Code?
-1. Readable - is code clean
+1. Readable - is code clean and easy to interpret?
 2. Scalable - Big O can tell us how performance scales
 
 See complexity chart.
@@ -24,19 +23,19 @@ function anotherFunChallenge(input) {
   let a = 5; //O(1)
   let b = 10; //O(1)
   let c = 50; //O(1)
-  for (let i = 0; i < input; i++) { //O(n)
+  for (let i = 0; i < input; i++) { 
     let x = i + 1; //O(n)
     let y = i + 2; //O(n)
     let z = i + 3; //O(n)
   }
-  for (let j = 0; j < input; j++) { //O(n)
+  for (let j = 0; j < input; j++) { 
     let p = j * 2; //O(n)
     let q = j * 2; //O(n)
   }
   let whoAmI = "I don't know"; //O(1)
 }
-// O(4) + O(n) + O(n)
-// O(2n + 4)
+// O(4) + O(5n)
+// O(5n + 4)
 // O(n)
 ```
 ## Rule Book
@@ -116,16 +115,18 @@ Scalability consists of:
 - Speed (CPU)
 - Memory (RAM)
 
+Pillars:
 1. Readable
 2. Speed 
   - Time Complexity: scales well, efficient
 3. Memory
   - Space Complexity
 
-Tradeoff bbetween space and time.
+Tradeoff between space and time.
 
 ## Space Complexity
 Heap - stores variables where we assign values to
+
 Stack - tracks function calls
 
 ```javascript
