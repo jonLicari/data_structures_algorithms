@@ -18,3 +18,15 @@ Resources for better understanding data storage on computers:
 - Computer Memory: http://statmath.wu.ac.at/courses/data-analysis/itdtHTML/node55.html
 - Registers and RAM: https://www.youtube.com/watch?v=fpnE6UAfbtU
 
+## Operations on Data Structures 
+**Insertion**: insert data item to an index of the data structure
+
+**Deletion**: delete data item from an index of the data structure
+
+**Traversal**: access each data item once so it can be processed
+
+**Searching**: find the location of a data item if it exists 
+
+**Sorting**: rearrange data into an organized arrangement
+
+**Access**: accessing data items in the data structure

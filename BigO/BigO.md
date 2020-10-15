@@ -118,9 +118,9 @@ Scalability consists of:
 Pillars:
 1. Readable
 2. Speed 
-  - Time Complexity: scales well, efficient
+    - Time Complexity: scales well, efficient
 3. Memory
-  - Space Complexity
+    -  Space Complexity
 
 Tradeoff between space and time.
 
